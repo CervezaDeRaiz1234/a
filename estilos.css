@@ -1,0 +1,76 @@
+body{
+    font-family: 'Trade Winds', sans-serif;
+}
+
+.menu{
+    background: #1d4350; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1d4350, #a43931); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1d4350, #a43931); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+header{
+    background: #1d4350; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1d4350, #a43931); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1d4350, #a43931); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.co{
+    width: 95%;
+    max-width: px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+.icono{
+    display: block;
+    z-index: 100000000;
+    animation: moverIzquierda 1s ease-in; /*Toma la clase de moverDerecha*/
+}
+img{
+    display: block;
+    height: 450px;
+    object-fit: cover;
+    animation: arriba 1s ease-in;
+}
+
+.textos{
+    width: 50%;
+    color:#fff;
+}
+
+.textos h1{
+    font-size:80px;
+    animation: moverDerecha 1s ease-in; /*Toma la clase de moverDerecha*/
+
+}
+
+.textos h2{
+    font-size:30px;
+    animation: moverIzquierda 1s ease-in; /*Toma la clase de moverIzquierda*/
+}
+
+.textos a{
+    display: inline-block;
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 0;
+    animation: arriba 1s ease-in;
+
+}
+
+.wave{
+    height: 100px;
+    width: 100%;
+    background: #1d4350; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1d4350, #a43931); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1d4350, #a43931); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+
